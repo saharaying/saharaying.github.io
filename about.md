@@ -1,11 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: 关于我
+permalink: /about-me/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+付莹
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+金数据 <a href="https://jinshuju.net" target="_blank">https://jinshuju.net</a>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Senior Consultant @ThoughtWorks西安
+
+E: saharaying[AT]gmail.com
