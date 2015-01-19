@@ -66,6 +66,7 @@ development:
 
 #### 5. ORM周边的gem替换
 如果使用了一些需要依赖MongoDB的gem，比如omniauth-identity, will_paginate, mm-carrierwave, sidekiq等，
+
 - *include OmniAuth::Identity::Models::MongoMapper* 变为 *include OmniAuth::Identity::Models::Mongoid*
 - will_paginate gem换成will_paginate_mongoid
 - mm-carrierwave gem换成carrierwave-mongoid，但是如果只是声明成*mount_uploader &lt;mounted_as&gt;, Uploader*，文件名将会存储到&lt;mounted_as&gt;字段，而不是像mm-carrierwave那样存储到&lt;mounted_as&gt;\_filename。为了不进行数据迁移，我们可以加上**mount_on**的声明：
